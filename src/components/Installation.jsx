@@ -6,9 +6,8 @@ function Installation() {
    
   return (
     <InstallationDivSt>
-        <InstallationTextSt onClick={() => setClicked(!clicked)}>ინსტალაცია</InstallationTextSt>
-        <img src={arrow} alt="arrow" />
-        
+        <InstallationTextSt>ინსტალაცია</InstallationTextSt>
+        <img src={arrow} alt="arrow" />        
     </InstallationDivSt>
   )
 }
