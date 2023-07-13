@@ -1,9 +1,16 @@
 import React from 'react'
+import { Route, Routes } from 'react-router-dom'
 import { styled } from 'styled-components'
+import HelloWorld from './HelloWorld'
+import Installation from './Installation'
 
 function Content() {
   return (
     <ContebtDivSt>lorem*4000
+      <Routes>
+        <Route path='/'/>
+        <Route path='/HelloWorld' element={<HelloWorld/>}/>
+      </Routes>
         
     </ContebtDivSt>
   )

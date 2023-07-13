@@ -1,11 +1,13 @@
 import React from 'react'
 import { styled } from 'styled-components'
 import Installation from './Installation'
+import MainConcepts from './MainConcepts'
 
 function Nav() {
   return (
     <NavDivSt>
         <Installation/>
+        <MainConcepts/>
     </NavDivSt>
   )
 }

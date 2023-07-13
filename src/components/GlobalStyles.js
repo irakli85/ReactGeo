@@ -9,6 +9,7 @@ const GlobalStyles = createGlobalStyle`
       border: none;
       font-family: 'Noto Sans Georgian', sans-serif;
       font-size: 62.5%;
+      text-decoration: none;
     }
 
     body{

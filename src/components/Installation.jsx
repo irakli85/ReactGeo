@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import { styled } from 'styled-components'
-import arrow from '../assets/arrow.svg'
+import arrow from '../assets/arrow.png'
 
 function Installation() {
    
   return (
     <InstallationDivSt>
         <InstallationTextSt>ინსტალაცია</InstallationTextSt>
-        <img src={arrow} alt="arrow" />        
+        <div><img src={arrow} alt="arrow" /></div>       
     </InstallationDivSt>
   )
 }
@@ -16,6 +16,7 @@ function Installation() {
 const InstallationDivSt = styled.div`
     margin-top: 8rem;
     display: flex;
+    align-items: center
 `
 const InstallationTextSt = styled.p`
     padding-right: 7px;

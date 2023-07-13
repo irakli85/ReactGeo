@@ -1,6 +1,7 @@
 import React from 'react'
 import { styled } from 'styled-components'
 import logo from '../assets/logo.svg'
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
@@ -16,8 +17,10 @@ function Header() {
 function HeaderLogo () {
     return(
         <DivSt>
-            <img src={logo} alt="logo"/>
-            <TextReactSt>React</TextReactSt>
+            <Link to='/'>
+                <img src={logo} alt="logo"/>
+                <TextReactSt>React</TextReactSt>
+            </Link>
         </DivSt>
     )
 }
