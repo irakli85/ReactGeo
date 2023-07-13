@@ -42,6 +42,7 @@ const ConceptTextSt = styled.p`
     text-transform: uppercase;
     text-align: start;
     letter-spacing: 0.08em;
+    user-select: none;
     &:hover{
         color: black;
         cursor: pointer;
