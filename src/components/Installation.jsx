@@ -1,19 +1,18 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { styled } from 'styled-components'
-import arrow from '../assets/arrow.png'
 
 function Installation() {
    
   return (
-    <InstallationDivSt>
-        <InstallationTextSt>ინსტალაცია</InstallationTextSt>
-        <div><img src={arrow} alt="arrow" /></div>       
-    </InstallationDivSt>
+    <InstallLinkSt to='/installation'>
+        <InstallationTextSt >ინსტალაცია</InstallationTextSt>
+    </InstallLinkSt>
   )
 }
 
 
-const InstallationDivSt = styled.div`
+const InstallLinkSt = styled(Link)`
     margin-top: 8rem;
     display: flex;
     align-items: center

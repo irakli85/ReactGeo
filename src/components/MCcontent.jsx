@@ -1,13 +1,12 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import { styled } from 'styled-components'
-import HelloWorld from './HelloWorld'
 
 function MCcontent() {
   return (
     <MCcontentDivSt>
-       <NavbarLink to='/HelloWorld'>1. Hello, World!</NavbarLink>
-       <NavbarLink>2. JSX-თან გაცნობა</NavbarLink>
+       <NavbarLink to='/HelloWorld'>1. Hello World</NavbarLink>
+       <NavbarLink to='/introJSX'>2. JSX-თან გაცნობა</NavbarLink>
        <NavbarLink>3. ელემენტების რენდერინგი</NavbarLink>
        <NavbarLink>4. კომპონენტები და Props</NavbarLink>
        <NavbarLink>5. State და სიცოცხლის ციკლი</NavbarLink>
@@ -28,13 +27,17 @@ const MCcontentDivSt = styled.div`
 `
 
 const NavbarLink = styled(Link)`
+    
     color: #1a1a1a;
     font-size: 1.6rem;
     text-decoration: none;
     margin: 10px;
+    padding-left: 15px;
+    border-left: 4px solid transparent;
     &:hover,
     &:focus{
         color: rgb(107, 107, 107);
+        border-left: 4px solid #61dafb;
     }
 `
 

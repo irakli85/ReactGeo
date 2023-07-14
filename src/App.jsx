@@ -1,6 +1,5 @@
 import GlobalStyles from './components/GlobalStyles'
 import Header from './components/Header'
-import { BrowserRouter} from "react-router-dom"
 import Section from './components/Section'
 import React from 'react'
 
@@ -8,11 +7,11 @@ import React from 'react'
 function App() {
 
   return (
-    <BrowserRouter>
-      <GlobalStyles/>
+    <>
+      <GlobalStyles/>      
       <Header/>
-      <Section/>
-    </BrowserRouter>
+      <Section/>      
+    </>
   )
 }
 

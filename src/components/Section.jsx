@@ -5,10 +5,12 @@ import Nav from './Nav'
 
 function Section() {
   return (
+    <>
     <SectionSt>
         <Content/>
         <Nav/>
     </SectionSt>
+    </>
   )
 }
 

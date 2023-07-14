@@ -10,7 +10,7 @@ function MainConcepts() {
   return (
     <ConceptDivSt>
         <ConceptDiv onClick={() => setClicked(!clicked)}>
-            <ConceptTextSt>ძირითადი კონცეპციები</ConceptTextSt>
+            <ConceptTextSt>ძირითადი კონცეფციები</ConceptTextSt>
             <div><ConceptImgSt src={arrow} alt="arrow" dropdown={clicked}/></div>
         </ConceptDiv>
         {
