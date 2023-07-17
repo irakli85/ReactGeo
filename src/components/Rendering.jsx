@@ -50,7 +50,7 @@ function Rendering() {
       <Pstyled>{data.article3.text17}</Pstyled>
       <img src={tick} alt="tick" />
       <Pstyled>{data.article3.text18}</Pstyled>
-
+      <Nextpage to='/components' text='კომპონენტები და props'/>
     </RendDivSt>
   )
 }
