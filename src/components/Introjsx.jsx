@@ -48,7 +48,7 @@ function Introjsx() {
             <TipH3St>საყურადღებო:</TipH3St>
             <TipPst>{data.article2.text13}</TipPst>
         </TipDivSt>
-      <H2styled>JSX-ში შვილობილი კომპონენტების გამოყენება</H2styled>
+      <H2styled>JSX-ში შვილობილი ელემენტების გამოყენება</H2styled>
       <Pstyled>{data.article2.text14}</Pstyled>
       <ImgDiv><img src={img9} alt="img9" /></ImgDiv>
       <Pstyled>{data.article2.text15}</Pstyled>

@@ -6,6 +6,7 @@ import ContentFooter from './ContentFooter'
 import Introjsx from './Introjsx'
 import InstalContent from './InstalContent'
 import Home from './Home'
+import Rendering from './Rendering'
 
 function Content() {
   return (
@@ -15,6 +16,7 @@ function Content() {
         <Route path='/installation' element={<InstalContent/>}/>
         <Route path='/HelloWorld' element={<HelloWorld/>}/>
         <Route path='/introJSX' element={<Introjsx/>}/>
+        <Route path='/rendering' element={<Rendering/>}/>
       </Routes>
       <ContentFooter/>
     </ContebtDivSt>

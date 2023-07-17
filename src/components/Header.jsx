@@ -48,7 +48,7 @@ const HeaderNavItemSt = styled.p`
 
 const DivSt = styled.div`
     display: flex;
-    align-items: center;    
+    align-items: center;     
 `
 
 const TextReactSt = styled.span`

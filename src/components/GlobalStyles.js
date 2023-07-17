@@ -14,8 +14,10 @@ const GlobalStyles = createGlobalStyle`
 
     body{
       width: 100%;
-      height: auto;      
+      height: auto;
+            
     }  
+    
 `;
 
 export default GlobalStyles;
