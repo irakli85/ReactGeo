@@ -6,7 +6,7 @@ function Nextpage({to, text}) {
   return (
     <NextPageDivSt>
         <NextPageP>შემდეგი თავი</NextPageP>
-        <NextPageLinkSt to={to} onClick={() => {window.scroll(0, 0);}}>{text}</NextPageLinkSt>
+        <NextPageLinkSt to={to} >{text}</NextPageLinkSt>
     </NextPageDivSt>
   )
 }

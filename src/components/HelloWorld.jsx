@@ -8,9 +8,12 @@ import Nextpage from './Nextpage'
 import {useEffect} from 'react';
 
 function HelloWorld() {
+  
 
    useEffect(() => {
-    window.scrollTo(0, 0);
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    console.log('start')
   }, []);
   
   return (

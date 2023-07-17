@@ -5,13 +5,14 @@ import MCcontent from './MCcontent'
 
 function MainConcepts() {
     const [clicked, setClicked] = useState(false)
-    console.log(clicked)
+    const [drop, setDrop] = useState(0)
+    console.log(clicked, drop)
     
   return (
     <ConceptDivSt>
-        <ConceptDiv onClick={() => setClicked(!clicked)}>
+        <ConceptDiv onClick={() => {setClicked(!clicked); drop === 0 ? setDrop(1) : setDrop(0)}}>
             <ConceptTextSt>ძირითადი კონცეფციები</ConceptTextSt>
-            <div><ConceptImgSt src={arrow} alt="arrow" dropdown={clicked}/></div>
+            <div><ConceptImgSt src={arrow} alt="arrow" dropdown={drop}/></div>
         </ConceptDiv>
         {
             clicked ?
