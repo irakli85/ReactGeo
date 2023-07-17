@@ -36,7 +36,7 @@ function HelloWorld() {
 }
 
 const HelloWorldDivSt = styled.div`
-  margin: 12rem 9rem 0 9rem;
+  margin: 12rem 9rem 15rem 9rem;
 `
 
 export const H1styled = styled.h1`
@@ -46,6 +46,7 @@ export const H1styled = styled.h1`
 `
 
 export const H2styled = styled.h2`
+  margin-top: 5rem;
   font-size: 3.5rem;
   color: #282c34;
   padding: 1.5rem;

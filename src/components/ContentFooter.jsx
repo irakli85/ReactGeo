@@ -11,8 +11,7 @@ function ContentFooter() {
   )
 }
 
-const FooterDivSt = styled.div`
-    margin-top: 15rem;
+const FooterDivSt = styled.div`    
     background: #282c34;
     color: #ffffff;
     padding: 5rem 9rem;

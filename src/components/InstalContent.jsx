@@ -18,7 +18,7 @@ function InstalContent() {
         <H2styled>Create React App</H2styled>
         <Pstyled>{data.install.text1}</Pstyled>
         <Pstyled>{data.install.text2}
-            <LinkStyled2 to='https://nodejs.org/en'>{data.install.text3}</LinkStyled2>
+            <LinkStyled2 to='https://nodejs.org/en' target="_blank">{data.install.text3}</LinkStyled2>
             {data.install.text4}
         </Pstyled>
         <ImgDiv><img src={img2} alt="img2" /></ImgDiv>
@@ -38,7 +38,7 @@ function InstalContent() {
 }
 
 const InstallDivSt = styled.div`
-    margin: 12rem 9rem 0 9rem;
+    margin: 12rem 9rem 15rem 9rem;
 `
 
 
