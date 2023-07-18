@@ -8,15 +8,14 @@ function MCcontent() {
        <NavbarLink to='/HelloWorld'>1. Hello World</NavbarLink>
        <NavbarLink to='/introJSX'>2. JSX-თან გაცნობა</NavbarLink>
        <NavbarLink to='/rendering'>3. ელემენტების რენდერი</NavbarLink>
-       <NavbarLink to='/components'>4. კომპონენტები და Props</NavbarLink>
-       <NavbarLink to='/state'>5. State და სიცოცხლის ციკლი</NavbarLink>
-       <NavbarLink to='/events'>6. Event-ების მართვა</NavbarLink>
-       <NavbarLink to='/conditional'>7. პირობითი რენდერინგი</NavbarLink>
-       <NavbarLink to='/lists'>8. სიები და key</NavbarLink>
-       <NavbarLink to='/forms'>9. ფორმები</NavbarLink>
-       <NavbarLink to='/liftingup'>10. State-ის ზემოთ ამოწევა</NavbarLink>
-       <NavbarLink to='/inheritance'>11. კომპოზიცია VS მემკვიდრეობითობა</NavbarLink>
-       <NavbarLink to='/thinking'>12. React-ის ფილოსოფია</NavbarLink>       
+       <NavbarLink to='/components'>4. პირველი კომპონენტი</NavbarLink>
+       <NavbarLink to='/import'>5. კომპონენტების იმპორტი და ექსპორტი</NavbarLink>
+       <NavbarLink to='/morejsx'>6. უფრო მეტი JSX</NavbarLink>
+       <NavbarLink to='/props'>7. Props</NavbarLink>
+       <NavbarLink to='/conditional'>8. პირობითი რენდერი</NavbarLink>
+       <NavbarLink to='/lists'>9. სიების რენდერი</NavbarLink>
+       <NavbarLink to='/pure'>10. "სუფთა" კომპონენტები</NavbarLink>
+           
     </MCcontentDivSt>
   )
 }

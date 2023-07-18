@@ -16,7 +16,11 @@ const GlobalStyles = createGlobalStyle`
       width: 100%;
       height: auto;
             
-    }  
+    }
+    
+    img{
+      object-fit: cover;
+    }
     
 `;
 

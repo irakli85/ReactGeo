@@ -7,7 +7,7 @@ import Introjsx from './Introjsx'
 import InstalContent from './InstalContent'
 import Home from './Home'
 import Rendering from './Rendering'
-import CompsAndProps from './CompsAndProps'
+import FirstComponent from './FirstComponent'
 
 function Content() {
   return (
@@ -18,7 +18,7 @@ function Content() {
         <Route path='/HelloWorld' element={<HelloWorld/>}/>
         <Route path='/introJSX' element={<Introjsx/>}/>
         <Route path='/rendering' element={<Rendering/>}/>
-        <Route path='/components' element={<CompsAndProps/>}/>
+        <Route path='/components' element={<FirstComponent/>}/>
       </Routes>
       <ContentFooter/>
     </ContebtDivSt>

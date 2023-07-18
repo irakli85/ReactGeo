@@ -54,6 +54,14 @@ export const H2styled = styled.h2`
   padding: 1.5rem;
 `
 
+export const H3styled = styled.h3`
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: #282c34;
+  padding: 1rem;
+  font-weight: 900;
+`
+
 export const ImgDiv = styled.div`
   margin-top: 2.5rem;
   width: 100%;
@@ -62,9 +70,29 @@ export const ImgDiv = styled.div`
   padding: 1.5rem;
 `
 
+export const ImgDiv2 = styled.div`
+  margin-top: 2.5rem;
+  width: 100%;
+  background-color: #16181d;
+  border-radius: 1rem;
+  padding: 1.5rem;
+`
+
 export const Pstyled = styled.p`
   margin-top: 1rem;
   padding: 1.5rem;
+  font-size: 1.5rem;
+`
+export const Pstyled1 = styled.p`
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  margin-left: 3rem;
+  `    
+  
+export const Listyled = styled.li`
+  margin-top: 1rem;
+  margin-left: 2rem;
+  padding: 1rem;
   font-size: 1.5rem;
 `
 
