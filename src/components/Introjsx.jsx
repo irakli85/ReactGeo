@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { styled } from 'styled-components'
 import { H1styled, H2styled, Pstyled, LinkStyled, ImgDiv} from './HelloWorld'
 import data from '../data'
@@ -18,8 +18,15 @@ import { TipDivSt, TipH3St, TipPst } from './Article1Tip'
 import Nextpage from './Nextpage'
 
 function Introjsx() {
+
+  useEffect(() => {    
+    let el = document.getElementById('intro-jsx')
+    console.log(el)
+    el.scrollIntoView()    
+  }, []);
+  
   return (
-    <IntroDivSt>
+    <IntroDivSt id='intro-jsx'>
       <H1styled>გაცნობა JSX-თან</H1styled>
       <Pstyled>{data.article2.text1}</Pstyled>
       <ImgDiv><img src={img3} alt="img3" /></ImgDiv>

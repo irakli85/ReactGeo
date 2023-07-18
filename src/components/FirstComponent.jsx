@@ -1,6 +1,6 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { styled } from 'styled-components'
-import { H1styled, H2styled, H3styled, Pstyled, Pstyled1, LinkStyled, ImgDiv2, Listyled} from './HelloWorld'
+import { H1styled, H2styled, H3styled, Pstyled, Pstyled1, ImgDiv2, Listyled} from './HelloWorld'
 import data from '../data'
 import { TipDivSt, TipH3St, TipPst } from './Article1Tip'
 import Nextpage from './Nextpage'
@@ -15,8 +15,14 @@ import img24 from '../assets/24.png'
 
 
 function FirstComponent() {
+    useEffect(() => {    
+        let el = document.getElementById('component')
+        console.log(el)
+        el.scrollIntoView()    
+      }, []);
+      
   return (
-    <DivSt>
+    <DivSt id='component'>
         <H1styled>პირველი კომპონენტი</H1styled>
         <Pstyled>{data.article4.text1}</Pstyled>
         <ImgDiv2><img src={img18} alt="img18" /></ImgDiv2>

@@ -10,13 +10,14 @@ import {useEffect} from 'react';
 function HelloWorld() {
   
 
-   useEffect(() => {
-    window.scrollTo(0, 0);
-    console.log('start')
+   useEffect(() => {    
+    let el = document.getElementById('hello-world')
+    console.log(el)
+    el.scrollIntoView()    
   }, []);
   
   return (
-    <HelloWorldDivSt>
+    <HelloWorldDivSt id='hello-world'>
       <H1styled>Hello World</H1styled>
       <Pstyled>{data.article1.text1}</Pstyled>
       <ImgDiv><img src={img1} alt="img1" /></ImgDiv>

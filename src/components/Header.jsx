@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 function Header() {
   return (
     <>
-        <HeaderSt>
+        <HeaderSt id='header'>
             <HeaderLogo/>
             <HeaderNav/>
         </HeaderSt>

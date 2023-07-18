@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { styled } from 'styled-components'
 import { H1styled, H2styled, Pstyled, LinkStyled, ImgDiv, LineSt} from './HelloWorld'
 import data from '../data'
@@ -13,8 +13,14 @@ import tick from '../assets/tick.gif'
 
 
 function Rendering() {
+  useEffect(() => {    
+    let el = document.getElementById('render')
+    console.log(el)
+    el.scrollIntoView()    
+  }, []);  
+  
   return (
-    <RendDivSt>
+    <RendDivSt id='render'>
       <Pstyled>{data.article3.text1}</Pstyled>
       <Pstyled>{data.article3.text2}</Pstyled>
       <ImgDiv><img src={img3} alt="img3" /></ImgDiv>
