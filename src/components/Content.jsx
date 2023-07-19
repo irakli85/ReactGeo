@@ -8,6 +8,7 @@ import InstalContent from './InstalContent'
 import Home from './Home'
 import Rendering from './Rendering'
 import FirstComponent from './FirstComponent'
+import ExportImport from './ExportImport'
 
 function Content() {
   useEffect(() => {
@@ -25,6 +26,7 @@ function Content() {
         <Route path='/introJSX' element={<Introjsx/>}/>
         <Route path='/rendering' element={<Rendering/>}/>
         <Route path='/components' element={<FirstComponent/>}/>
+        <Route path='/import' element={<ExportImport/>}/>
       </Routes>
       <ContentFooter/>
     </ContebtDivSt>

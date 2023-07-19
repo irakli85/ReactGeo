@@ -83,7 +83,7 @@ function FirstComponent() {
 }
 
 
-const DivSt = styled.div`
+export const DivSt = styled.div`
     margin: 12rem 9rem 15rem 9rem;
 `
 

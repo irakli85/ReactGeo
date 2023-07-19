@@ -70,7 +70,16 @@ export const ImgDiv = styled.div`
   border-radius: 1rem;
   padding: 1.5rem;
 `
-
+export const ImgDiv1 = styled.div`
+  margin-top: 2.5rem;
+  width: 100%;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 2px 11px 27px 1px rgba(204,194,194,0.75);
+  -webkit-box-shadow: 2px 11px 27px 1px rgba(204,194,194,0.75);
+  -moz-box-shadow: 2px 11px 27px 1px rgba(204,194,194,0.75);
+`
 export const ImgDiv2 = styled.div`
   margin-top: 2.5rem;
   width: 100%;
@@ -93,6 +102,13 @@ export const Pstyled1 = styled.p`
 export const Listyled = styled.li`
   margin-top: 1rem;
   margin-left: 2rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+`
+
+export const Listyled1 = styled.li`
+  margin-top: 1rem;
+  margin-left: 10rem;
   padding: 1rem;
   font-size: 1.5rem;
 `
