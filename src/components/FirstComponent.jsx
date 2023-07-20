@@ -69,7 +69,7 @@ function FirstComponent() {
             <ImgDiv2><img src={img24} alt="img24" /></ImgDiv2>
         </TipDivSt>
         <H2styled>შეჯამება</H2styled>
-        <Pstyled>გავიმეოროთ რამდენიმე ძირითადი პუნქტი.</Pstyled>
+        <Pstyled>გავიმეოროთ რამდენიმე ძირითადი პუნქტი:</Pstyled>
         <ul>
             <Listyled>{data.article4.text18}</Listyled>
             <Listyled>{data.article4.text19}</Listyled>
