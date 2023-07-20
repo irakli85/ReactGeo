@@ -11,10 +11,11 @@ function MCcontent() {
        <NavbarLink to='/components'>4. პირველი კომპონენტი</NavbarLink>
        <NavbarLink to='/import'>5. კომპონენტების იმპორტი და ექსპორტი</NavbarLink>
        <NavbarLink to='/morejsx'>6. უფრო მეტი JSX</NavbarLink>
-       <NavbarLink to='/props'>7. Props</NavbarLink>
-       <NavbarLink to='/conditional'>8. პირობითი რენდერი</NavbarLink>
-       <NavbarLink to='/lists'>9. სიების რენდერი</NavbarLink>
-       <NavbarLink to='/pure'>10. "სუფთა" კომპონენტები</NavbarLink>
+       <NavbarLink to='/jsinjsx'>7. JavaScript-ი JSX-ში</NavbarLink>
+       <NavbarLink to='/props'>8. Props</NavbarLink>
+       <NavbarLink to='/conditional'>9. პირობითი რენდერი</NavbarLink>
+       <NavbarLink to='/lists'>10. სიების რენდერი</NavbarLink>
+       <NavbarLink to='/pure'>11. "სუფთა" კომპონენტები</NavbarLink>
            
     </MCcontentDivSt>
   )

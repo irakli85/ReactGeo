@@ -11,7 +11,6 @@ import img17 from '../assets/17.png'
 import tick from '../assets/tick.gif'
 
 
-
 function Rendering() {
   useEffect(() => {    
     let el = document.getElementById('render')
@@ -21,6 +20,7 @@ function Rendering() {
   
   return (
     <RendDivSt id='render'>
+      <H1styled>ელემენტების რენდერი</H1styled>
       <Pstyled>{data.article3.text1}</Pstyled>
       <Pstyled>{data.article3.text2}</Pstyled>
       <ImgDiv><img src={img3} alt="img3" /></ImgDiv>
