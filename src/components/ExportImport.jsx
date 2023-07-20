@@ -15,6 +15,7 @@ import img32 from '../assets/32.png'
 import import1 from '../assets/import.svg'
 import Note, {NoteP} from './Note'
 import DeepDive from './DeepDive'
+import Nextpage from './Nextpage'
 
 
 function ExportImport() {
@@ -102,8 +103,7 @@ function ExportImport() {
             <Listyled1>{data.article5.text33}</Listyled1>
             <Listyled1>{data.article5.text34}</Listyled1>
         </ul>
-
-
+        <Nextpage to='/morejsx' text='უფრო მეტი JSX'/>
     </DivSt>   
   )
 }

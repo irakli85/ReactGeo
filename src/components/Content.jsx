@@ -9,13 +9,12 @@ import Home from './Home'
 import Rendering from './Rendering'
 import FirstComponent from './FirstComponent'
 import ExportImport from './ExportImport'
+import MoreJSX from './MoreJSX'
 
 function Content() {
   useEffect(() => {
     window.scrollTo(0, 0)
-  }, [])
-
- 
+  }, []) 
 
   return (
     <ContebtDivSt>
@@ -27,6 +26,7 @@ function Content() {
         <Route path='/rendering' element={<Rendering/>}/>
         <Route path='/components' element={<FirstComponent/>}/>
         <Route path='/import' element={<ExportImport/>}/>
+        <Route path='/morejsx' element={<MoreJSX/>}/>
       </Routes>
       <ContentFooter/>
     </ContebtDivSt>
