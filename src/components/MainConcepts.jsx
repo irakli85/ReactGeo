@@ -50,7 +50,7 @@ const ConceptTextSt = styled.p`
     }
 `
 
-const ConceptImgSt = styled.img`
+export const ConceptImgSt = styled.img`
     transform: ${props => props.dropdown ? "rotate(180deg)" : null};
     transition: transform ease-in-out 0.5s;
 `

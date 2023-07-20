@@ -70,8 +70,9 @@ export const ImgDiv = styled.div`
   border-radius: 1rem;
   padding: 1.5rem;
 `
-export const ImgDiv1 = styled.div`
+export const ImgDiv1 = styled.div`  
   margin-top: 2.5rem;
+  margin-bottom: 2rem;
   width: 100%;
   background-color: white;
   border-radius: 1rem;
@@ -87,7 +88,11 @@ export const ImgDiv2 = styled.div`
   border-radius: 1rem;
   padding: 1.5rem;
 `
-
+export const ImgDiv3 = styled.img`  
+    max-width: 100%;
+    max-height: 100%;
+    justify-self: center;    
+`
 export const Pstyled = styled.p`
   margin-top: 1rem;
   padding: 1.5rem;
@@ -109,6 +114,11 @@ export const Listyled = styled.li`
 export const Listyled1 = styled.li`
   margin-top: 1rem;
   margin-left: 10rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+`
+export const Listyled2 = styled.li`
+  margin-left: 2rem;
   padding: 1rem;
   font-size: 1.5rem;
 `
