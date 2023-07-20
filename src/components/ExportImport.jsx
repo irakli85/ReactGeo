@@ -18,13 +18,11 @@ import DeepDive from './DeepDive'
 
 
 function ExportImport() {
-    // useEffect(() => {    
-    //     let el = document.getElementById('import')
-    //     console.log(el)
-    //     el.scrollIntoView()    
-    //   }, []);
-
-   
+    useEffect(() => {    
+        let el = document.getElementById('import')
+        console.log(el)
+        el.scrollIntoView()    
+      }, []);   
 
   return (
     <DivSt id='import'>
