@@ -15,8 +15,7 @@ function MCcontent() {
        <NavbarLink to='/props'>8. Props</NavbarLink>
        <NavbarLink to='/conditional'>9. პირობითი რენდერი</NavbarLink>
        <NavbarLink to='/lists'>10. სიების რენდერი</NavbarLink>
-       <NavbarLink to='/pure'>11. "სუფთა" კომპონენტები</NavbarLink>
-           
+       <NavbarLink to='/pure'>11. "სუფთა" კომპონენტები</NavbarLink>           
     </MCcontentDivSt>
   )
 }
