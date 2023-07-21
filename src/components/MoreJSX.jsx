@@ -83,7 +83,7 @@ function MoreJSX() {
       <H2styled>რჩევა: გამოიყენეთ JSX კონვერტორი</H2styled>
       <Pstyled1>
           {data.article6.text21}
-          <LinkStyled2 to='https://transform.tools/html-to-jsx'>კონვერტორი </LinkStyled2>
+          <LinkStyled2 to='https://transform.tools/html-to-jsx' target='_blank'>კონვერტორი </LinkStyled2>
           {data.article6.text22}
       </Pstyled1>
       <Pstyled1>საბოლოო შედეგი ასე გამოიყურება:</Pstyled1>

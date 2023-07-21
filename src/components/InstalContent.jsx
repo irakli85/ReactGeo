@@ -27,8 +27,8 @@ function InstalContent() {
             <TipPst>{data.install.text5}</TipPst>
         </TipDivSt>
         <Pstyled>{data.install.text6}
-            <LinkStyled2 to='https://babeljs.io/'>Babel-ს </LinkStyled2>და
-            <LinkStyled2 to='https://webpack.js.org/'> Webpack-ს,</LinkStyled2>
+            <LinkStyled2 to='https://babeljs.io/' target='_blank'>Babel-ს </LinkStyled2>და
+            <LinkStyled2 to='https://webpack.js.org/' target='_blank'> Webpack-ს,</LinkStyled2>
             {data.install.text7}
         </Pstyled>
         <Pstyled>{data.install.text8}</Pstyled>
