@@ -11,6 +11,7 @@ import FirstComponent from './FirstComponent'
 import ExportImport from './ExportImport'
 import MoreJSX from './MoreJSX'
 import JSinJSX from './JSinJSX'
+import Props from './Props'
 
 function Content() {
 
@@ -26,6 +27,7 @@ function Content() {
         <Route path='/import' element={<ExportImport/>}/>
         <Route path='/morejsx' element={<MoreJSX/>}/>
         <Route path='/jsinjsx' element={<JSinJSX/>}/>
+        <Route path='/props' element={<Props/>}/>
       </Routes>
       <ContentFooter/>
     </ContebtDivSt>
