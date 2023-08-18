@@ -1,13 +1,8 @@
-import React, {useEffect, useState} from 'react'
-import { styled } from 'styled-components'
-import { H1styled, H2styled, H3styled, Pstyled, Pstyled1, ImgDiv1, ImgDiv2, ImgDiv3, LinkStyled2, Listyled2,  Listyled1, LineSt} from './HelloWorld'
+import React, {useEffect} from 'react'
+import { H1styled, H2styled, Pstyled1, ImgDiv1, Listyled1} from './HelloWorld'
 import data from '../data'
-import { TipDivSt, TipH3St, TipPst } from './Article1Tip'
 import { DivSt } from './FirstComponent'
-import Note, {NoteP} from './Note'
-import DeepDive from './DeepDive'
 import Nextpage from './Nextpage'
-import PicBox from './PicBox'
 import Pitfall from './Pitfall'
 import img45 from '../assets/45.png'
 import img46 from '../assets/46.png'
@@ -74,7 +69,7 @@ function JSinJSX() {
         <Listyled1>{data.article7.text24}</Listyled1>
         <Listyled1>{data.article7.text25}</Listyled1>
       </ul>
-      <Nextpage to='/props' text='props'/>
+      <Nextpage to='/props' text='Props'/>
     </DivSt>
   )
 }
