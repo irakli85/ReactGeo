@@ -38,7 +38,7 @@ function JSinJSX() {
       <Pstyled1>{data.article7.text7}</Pstyled1>
       <Pstyled1>{data.article7.text8}</Pstyled1>
       <ImgDiv1><img src={img48} alt="img48" /></ImgDiv1>
-      <H2styled>სად გამოვიყენოთ ხვეული ბრეკეტები</H2styled>
+      <H2styled>სად გამოვიყენოთ ფიგურული ფრჩხილები</H2styled>
       <Pstyled1>{data.article7.text9}</Pstyled1>
       <Pstyled1>{data.article7.text10}</Pstyled1>
       <Pstyled1>{data.article7.text11}</Pstyled1>
