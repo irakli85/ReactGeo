@@ -38,7 +38,4 @@ export const NoteP = styled.p`
   padding: 1.5rem;
   font-size: 1.5rem;
 `
-
-
-
 export default Note

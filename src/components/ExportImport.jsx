@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, {useEffect} from 'react'
 import { styled } from 'styled-components'
 import { H1styled, H2styled, H3styled, Pstyled, Pstyled1, ImgDiv1, ImgDiv2, ImgDiv3, Listyled2,  Listyled1, LineSt} from './HelloWorld'
 import data from '../data'

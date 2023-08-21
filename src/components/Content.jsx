@@ -16,7 +16,7 @@ import Props from './Props'
 function Content() {
 
   return (
-    <ContebtDivSt>
+    <ContentDivSt>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/installation' element={<InstalContent/>}/>
@@ -30,11 +30,11 @@ function Content() {
         <Route path='/props' element={<Props/>}/>
       </Routes>
       <ContentFooter/>
-    </ContebtDivSt>
+    </ContentDivSt>
   )
 }
 
-const ContebtDivSt = styled.div`
+const ContentDivSt = styled.div`
     background-color: white;
     width:70%;
     height: 100vh;
