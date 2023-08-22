@@ -12,6 +12,7 @@ import ExportImport from './ExportImport'
 import MoreJSX from './MoreJSX'
 import JSinJSX from './JSinJSX'
 import Props from './Props'
+import Conditional from './Conditional'
 
 function Content() {
 
@@ -28,6 +29,7 @@ function Content() {
         <Route path='/morejsx' element={<MoreJSX/>}/>
         <Route path='/jsinjsx' element={<JSinJSX/>}/>
         <Route path='/props' element={<Props/>}/>
+        <Route path='/conditional' element={<Conditional/>}/>
       </Routes>
       <ContentFooter/>
     </ContentDivSt>

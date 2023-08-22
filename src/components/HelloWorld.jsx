@@ -70,7 +70,7 @@ export const ImgDiv = styled.div`
   border-radius: 1rem;
   padding: 1.5rem;
 `
-export const ImgDiv1 = styled.div`  
+export const ImgDiv1 = styled.div`
   margin-top: 2.5rem;
   margin-bottom: 2rem;
   width: 100%;

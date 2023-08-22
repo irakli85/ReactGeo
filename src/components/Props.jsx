@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import { H1styled, H2styled, H3styled, Pstyled1, ImgDiv1} from './HelloWorld'
+import { H1styled, H2styled, H3styled, Pstyled1, ImgDiv1, Listyled1} from './HelloWorld'
 import data from '../data'
 import { DivSt } from './FirstComponent'
 import Learn from './Learn'
@@ -7,6 +7,7 @@ import Note from './Note'
 import Nextpage from './Nextpage'
 import Pitfall from './Pitfall'
 import props from '../assets/props.png'
+import clock from '../assets/clock.gif'
 import img54 from '../assets/54.png'
 import img55 from '../assets/55.png'
 import img56 from '../assets/56.png'
@@ -21,10 +22,18 @@ import img64 from '../assets/64.png'
 import img65 from '../assets/65.png'
 import img66 from '../assets/66.png'
 import img67 from '../assets/67.png'
+import img68 from '../assets/68.png'
 
 function Props() {
+
+  useEffect(() => {    
+    let el = document.getElementById('props')
+    console.log(el)
+    el.scrollIntoView()    
+  }, []); 
+
   return (
-    <DivSt>
+    <DivSt id='props'>
       <H1styled>Props-ების გადაცემა კომპონენტზე</H1styled>
       <Pstyled1>{data.article8.text1}</Pstyled1>
       <Learn>        
@@ -86,6 +95,26 @@ function Props() {
       <Pstyled1>{data.article8.text24}</Pstyled1>
       <Pstyled1>{data.article8.text25}</Pstyled1>
       <img className='props' src={props} alt="props" />
+      <H2styled>როგორ იცვლება პროპსები დროში</H2styled>
+      <Pstyled1>{data.article8.text26}</Pstyled1>
+      <ImgDiv1>
+        <img src={img68} alt="img68" />
+        <img src={clock} alt="clock" />        
+      </ImgDiv1>
+      <Pstyled1>{data.article8.text27}</Pstyled1>
+      <Pstyled1>{data.article8.text28}</Pstyled1>
+      <Pstyled1>{data.article8.text29}</Pstyled1>
+      <H2styled>შეჯამება</H2styled>
+      <ul>
+        <Listyled1>{data.article8.text30}</Listyled1>
+        <Listyled1>{data.article8.text31}</Listyled1>
+        <Listyled1>{data.article8.text32}</Listyled1>
+        <Listyled1>{data.article8.text33}</Listyled1>
+        <Listyled1>{data.article8.text34}</Listyled1>
+        <Listyled1>{data.article8.text35}</Listyled1>
+        <Listyled1>{data.article8.text36}</Listyled1>
+      </ul>
+      <Nextpage to='/conditional' text='პირობითი რენდერი'/>
     </DivSt>
   )
 }
