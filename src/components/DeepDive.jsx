@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import { styled } from 'styled-components'
 import arrow from '../assets/white.svg'
 import { ConceptImgSt } from './MainConcepts'
+import book from '../assets/deepdive.svg'
 
 
 function DeepDive({text, children}) {
@@ -9,7 +10,7 @@ function DeepDive({text, children}) {
   const [drop, setDrop] = useState(0)
 
   return (
-    <DiveDivSt>
+    <DiveDivSt>      
       <DiveH2St>{text}</DiveH2St>
       <DiveBtnSt onClick={() => {setClicked(!clicked); drop === 0 ? setDrop(1) : setDrop(0)}}>
         <div><ConceptImgSt src={arrow} alt="arrow" dropdown={drop}/></div>
