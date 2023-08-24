@@ -29,10 +29,12 @@ import img86 from '../assets/86.png'
 function Conditional() {
 
   useEffect(() => {    
-    let el = document.getElementById('cond')
-    console.log(el)
-    el.scrollIntoView()    
+    let el = document.getElementById('cond');
+    console.log(el);
+    el.scrollIntoView() ;
   }, []); 
+
+  
 
   return (
     <DivSt id='cond'>
