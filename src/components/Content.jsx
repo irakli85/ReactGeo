@@ -14,6 +14,7 @@ import JSinJSX from './JSinJSX'
 import Props from './Props'
 import Conditional from './Conditional'
 import Lists from './Lists'
+import Pure from './Pure'
 
 function Content() {
 
@@ -32,6 +33,7 @@ function Content() {
         <Route path='/props' element={<Props/>}/>
         <Route path='/conditional' element={<Conditional/>}/>
         <Route path='/lists' element={<Lists/>}/>
+        <Route path='/pure' element={<Pure/>}/>
       </Routes>
       <ContentFooter/>
     </ContentDivSt>
